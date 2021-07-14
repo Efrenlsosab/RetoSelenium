@@ -13,7 +13,7 @@ public class AddWhislistTest extends BaseTest {
         AddWhislit addWishlist = bases.clickCategoryWomenAddWishlist();
         addWishlist.clickAddWishlist();
         Thread.sleep(4000);
-        assertEquals(addWishlist.getText(),"Added to your wishlist.","It wasn't add to wishlist");
+        assertEquals(addWishlist.getText(),"You must be logged in to manage your wishlist.","The product was add to wishlist");
 
     }
 

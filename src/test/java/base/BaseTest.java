@@ -48,6 +48,7 @@ public void recordFailure(ITestResult result){
         }
 
 }*/
+
     @AfterAll
     public void quit(){
         driver.quit();
